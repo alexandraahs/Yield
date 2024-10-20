@@ -6,7 +6,10 @@ A Yield aggregator iOS platform friendly to non-crypto-native users
 
 ## Architecture Overview
 ![yield_excalidraw](https://github.com/user-attachments/assets/928243a9-599b-4600-8998-a96d8c5f6d42)
+# Here is the UI we made for the mobile app using Figma.
+## This link gives you viewing access to the design:
 
+### https://www.figma.com/design/qy7SUzy2URRL2J1jqhdvbC/YIELD-ETH-GLOBAL?node-id=0-1&t=oLZsxPOFiKG1DBSG-1
 ## Deployments
 
 #### Ethereum Sepolia
