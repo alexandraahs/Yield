@@ -7,6 +7,25 @@ A Yield aggregator iOS platform friendly to non-crypto-native users
 ## Architecture Overview
 ![yield_excalidraw](https://github.com/user-attachments/assets/928243a9-599b-4600-8998-a96d8c5f6d42)
 
+## Technologies
+
+### Wallet & Transaction Fees
+- **Web3Auth and Account Abstraction:** Used for the non-custodial wallet.**
+- **4337 Account Abstraction and Web3Auth Signer:** To generate a deterministic Smart Account for users.**
+- **Paymasters:** Allows for gas sponsorships of transactions originating from these user Smart Accounts.
+
+### Depositing Funds
+- **Coinbase On-ramp:** Enables users to top up their accounts using fiat currencies or traditional finance (TradFi) methods like debit/credit cards.**
+
+### Best Yield Finding AI Module
+- **Historical APRs:** Uses data from a set of public lending and staking protocols to identify trends.
+- **OpenAI GPT Models:** Predicts the most prospective investment options based on historical rates and future outlooks.
+- **Multi-chain Support:** Finds the most effective yields across various chains including Flow, Polygon, Ethereum, Arbitrum, Skale, and AirDAO.
+
+### Cross-Chain Lending Routing
+- **Circle's CCTP:** Facilitates asset bridging to the appropriate chain for optimized yields.
+
+   
 ## Deployments
 
 #### Ethereum Sepolia
